@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>参与院校</title>
+	<link rel="stylesheet" href="css/school.css">
+	<link rel="stylesheet" href="css/header.css">
+	<link rel="stylesheet" href="css/footer.css">
+	<link rel="stylesheet" href="css/common.css">
+</head>
+<body>
+<header>
+	<div class="header">
+		<div class="zhanwei"></div>
+		<img src="images/header.png" alt="">
+		<ul>
+			<li><a href="index.html">首页</a>
+			</li>
+			<li><a href="News.html">新闻资讯</a></li>
+			<li><a href="zyhz.html">中英项目</a>
+				<div class="yingchang">
+					<p>项目介绍</p>
+					<p>项目介绍</p>
+					<p>项目展示</p>
+				</div>
+			</li>
+			<li><a href="zohz.html">中欧项目</a>
+				<div class="yingchang">
+					<p>项目介绍</p>
+					<p>项目介绍</p>
+					<p>项目展示</p>
+				</div>
+			</li>
+			<li><a href="join.html">合作机构</a></li>
+			<li><a href="school.html">参与院校</a></li>
+			<li><a href=".html">国家政策</a></li>
+			<li><a href=".html">关于我们</a></li>
+		</ul>
+		<div class="icon"><img src="images/icon.png" alt=""></div>
+	</div>
+</header>
+<script src="js/jquery-1.12.3.min.js"></script>
+<script>
+    $("li .yingchang").hide();
+    $("li a").mouseover(function(){
+        $(this).next().show();
+    });
+    $("li a").mouseout(function(){
+        $(this).next().hide();
+    });
+    $("li .yingchang").mouseover(function(){
+        $(this).show();
+    });
+    $("li .yingchang").mouseout(function(){
+        $(this).hide();
+    });
+</script>
+	<div class="banner">
+		<ul>
+			<li><a href="#" style="background-image: url(images/carouse.png);background-position: center center;"></a></li>
+		</ul>
+		<div class="btn">
+			<span class="left"></span>
+			<span class="right"></span>
+		</div>
+		<ol>
+			<li></li>
+			<li class="cur"></li>
+			<li></li>
+			<li></li>
+		</ol>
+	</div>
+	<section class="container">
+		<div class="con-content">
+			<div class="join-school">
+				<p>参与院校</p>
+				<p>
+					<a href="#">外方院校</a>
+					<a href="#" class="r-all">
+						<img src="images/smallarrowred.png" alt="">
+					</a>
+				</p>
+				<p>
+					<a href="#">中方院校</a>
+					<a href="#" class="r-all">
+						<img src="images/smallarrowblack.png" alt="">
+					</a>
+				</p>
+			</div>
+
+			<div class="mylocation">
+				<div class="loc-nav">
+					<div>
+						<span>我的位置：</span>
+						<a href="#">首页</a><img src="images/arrow.png" alt="">
+						<a href="#">参与院校</a><img src="images/arrow.png" alt="">
+						<a href="#">外方院校</a>
+					</div>
+				</div>
+				<div class="loc-inner">
+					<div class="top">
+						<a href="#"><img src="images/list01.png" alt=""></a>
+						<a href="#"><img src="images/list02.png" alt="" style="margin-right: 0"></a>
+					</div>
+					<div class="down">
+						<a href="#"><img src="images/list03.png" alt=""></a>
+						<a href="#"><img src="images/list04.png" alt=""></a>
+						<a href="#"><img src="images/list05.png" alt="" style="margin-right: 0"></a>
+					</div>
+				</div>
+			</div>
+
+			<img src="images/line.png" alt="" class="line">
+		</div>
+	</section>
+	<footer>
+		<div class="inner_c">
+			<div class="all first-row">
+				<dl>
+					<dt>东方宇新</dt>
+					<dd>法人代表</dd>
+					<dd>加盟我们</dd>
+					<dd>历史事件</dd>
+					<dd>宇新工程</dd>
+					<dd>合作机构</dd>
+				</dl>
+			</div>
+			<div class="all second-row">
+				<dl>
+					<dt>新闻资讯</dt>
+					<dd>重大事件</dd>
+					<dd>战略方针</dd>
+					<dd>合作事件</dd>
+					<dd>发展方向</dd>
+					<dd>作战计划</dd>
+				</dl>
+			</div>
+			<div class="all third-row">
+				<dl>
+					<dt>中英合作</dt>
+					<dd>项目介绍</dd>
+					<dd>双新合作</dd>
+					<dd>国家认证</dd>
+					<dd>在线学习</dd>
+					<dd>联合培养</dd>
+				</dl>
+			</div>
+			<div class="all forth-row">
+				<dl>
+					<dt>中欧合作</dt>
+					<dd>合作关系</dd>
+					<dd>欧美建设</dd>
+					<dd>中和决策</dd>
+					<dd>个人定制</dd>
+				</dl>
+			</div>
+			<div class="all fifth-row">
+				<dl>
+					<dt>关于我们</dt>
+					<dd>国家政策</dd>
+					<dd>教育方针</dd>
+					<dd>宇新新闻</dd>
+				</dl>
+			</div>
+			<div class="all sixth-row">
+				<dl>
+					<dt>关注我们</dt>
+				</dl>
+			</div>
+		</div>
+		<div class="down">
+			<p>机构详细地址：First.Fumbally Square.Fumbally Lane. Dublin Do8 XYA5. lreland(爱尔兰，都柏林)</p>
+			<p>练习人电话：+35317082903  练习人姓名：Miriam Ryan</p>
+		</div>
+	</footer>
+
+</body>
+</html>

@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>合作机构</title>
+	<style>
+		*{
+			margin:0;
+			padding:0;
+		}
+		body{
+			color: #666666;
+		}
+		ul,ol{
+			list-style: none;
+		}
+		a{
+			text-decoration: none;
+		}
+		div.banner{
+			width: 1920px;
+			height: 700px;
+			position: relative;
+		}
+		.banner .btn span{
+			display: inline-block;
+			width: 38px;
+			height: 60px;
+			position: absolute;
+			top: 50%;
+			margin-top: -30px;
+			cursor: pointer;
+		}
+		.banner .btn span.left{
+			background:url(images/left.png) no-repeat;
+			left: 18%;
+		}
+		.banner .btn span.right{
+			background:url(images/right.png) no-repeat;
+			right: 18%;
+		}
+		.content{
+			width: 1200px;
+			margin:0 auto;
+			margin-top: 50px;
+		}
+		.content span.he{
+			background-color: #666666;
+			display: inline-block;
+			color: #fff;
+			width: 250px;
+			height: 40px;
+			line-height: 40px;
+			text-align: center;
+			float: left;
+		}
+		.content .head{
+			width: 950px;
+			border-bottom:2px solid #aaaaaa;
+			float: left;
+			line-height: 38px;
+		}
+		.content .head span{
+			float: right;
+		}
+		a{
+			color: #666666;
+		}
+		.content .head span img{
+			margin:0 10px;
+		}
+		.content .con{
+			width: 100%;
+			overflow: hidden;
+		}
+		.content .con .b-left{
+			width: 250px;
+			float: left;
+		}
+		.content .con .b-left ul li{
+			line-height: 50px;
+			border-bottom: 1px solid black;
+			padding-left: 15px;
+			position: relative;
+		}
+		.content .con .b-left ul li span{
+			position: absolute;
+			top:50%;
+			margin-top: -9.5px;
+			right: 0;
+			display: inline-block;
+			width: 10px;
+			height: 19px;
+			background:url(images/jiaobiao.png) no-repeat;
+		}
+		.current a{
+			color: red;
+		}
+		.content .con .b-left li.current a span{
+			background:url(images/jiaobiaored.png) no-repeat;
+		}
+		.content .con .b-right{
+			width: 900px;
+			float: right;
+			margin-top: 30px;
+			letter-spacing: 2px;
+			font-size: 15px;
+			line-height: 20px;
+		}
+		.content .con .b-right img{
+			float: right;
+			margin-left: 20px;
+		}
+	</style>
+	<link rel="stylesheet" href="css/header.css">
+	<link rel="stylesheet" href="css/footer.css">
+	<link rel="stylesheet" href="css/common.css">
+</head>
+<body>
+<header>
+	<div class="header">
+		<div class="zhanwei"></div>
+		<img src="images/header.png" alt="">
+		<ul>
+			<li><a href="index.html">首页</a>
+			</li>
+			<li><a href="News.html">新闻资讯</a></li>
+			<li><a href="zyhz.html">中英项目</a>
+				<div class="yingchang">
+					<p>项目介绍</p>
+					<p>项目介绍</p>
+					<p>项目展示</p>
+				</div>
+			</li>
+			<li><a href="zohz.html">中欧项目</a>
+				<div class="yingchang">
+					<p>项目介绍</p>
+					<p>项目介绍</p>
+					<p>项目展示</p>
+				</div>
+			</li>
+			<li><a href="join.html">合作机构</a></li>
+			<li><a href="school.html">参与院校</a></li>
+			<li><a href=".html">国家政策</a></li>
+			<li><a href=".html">关于我们</a></li>
+		</ul>
+		<div class="icon"><img src="images/icon.png" alt=""></div>
+	</div>
+</header>
+<script src="js/jquery-1.12.3.min.js"></script>
+<script>
+    $("li .yingchang").hide();
+    $("li a").mouseover(function(){
+        $(this).next().show();
+    });
+    $("li a").mouseout(function(){
+        $(this).next().hide();
+    });
+    $("li .yingchang").mouseover(function(){
+        $(this).show();
+    });
+    $("li .yingchang").mouseout(function(){
+        $(this).hide();
+    });
+</script>
+	<!-- banner -->
+	<div class="banner">
+		<ul>
+			<li><a href="#" style="background-image: url(images/join-banner.png);background-position: center center;"></a></li>
+		</ul>
+		<div class="btn">
+			<span class="left"></span>
+			<span class="right"></span>
+		</div>
+		<ol>
+			<li></li>
+			<li class="cur"></li>
+			<li></li>
+			<li></li>
+		</ol>
+	</div>
+
+	<!-- section -->
+	<section>
+		<div class="content">
+			<span class="he">合作机构</span>
+			<div class="head">
+				<span>
+					您的位置：
+					<a href="">首页</a>
+					<img src="images/jiaobiao1.png" alt="">
+					<a href="">合作机构</a>
+					<img src="images/jiaobiao1.png" alt="">
+					教育部学校建设规划发展中心
+				</span>
+			</div>
+			<div class="con">
+				<div class="b-left">
+					<ul>
+						<li class="current">
+							<a href="#">
+								教育部学校建设规...
+								<span></span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								英国国家学历学位...
+								<span></span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								荷兰理工联盟
+								<span></span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								荷兰应用科技大学协会
+								<span></span>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="b-right">
+					<img src="images/join-content.png" alt="">
+					<p>教育部学校规划建设发展中心是经中央机构编制委员会办公室批准设立的教育部直属事业单位，以为全国学校规划建设发展提供服务为宗旨。</p>
+					<p>中心主要职责包括：</p>
+					<p>（1）开展国家教育规划、区域教育规划和学校发展规划的研究和监测。开展教育规模、布局、结构、院校设置、民办教育等重大政策研究。</p>
+					<p>（2）开展教育行业投资研究、监测和服务，推动教育发展形态和学校发展模式创新性研究和实验。</p>
+					<p>（3）开展学校建设规划和项目投资、建设服务，承担直属高校、直属单位基本建设专业化服务。推动学校建设发展标准和规范的研究和宣传推广。为绿色校园建设和教育后勤专业化提供服务。</p>
+					<p>（4）开展教育统计分析、决策支持和学校综合信息、综合评价服务。参与教育现代化监测评价和决策服务信息系统建设。</p>
+					<p>（5）推动教育系统防灾减灾能力建设，对学校防灾减灾和灾后重建提供专业化支持。承担教育系统扶贫专项工作。</p>
+					<p>（6）开展相关业务领域的专业培训和国际交流合作。</p>
+					<p>（7）教育部和有关部门委托的其他工作。</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer>
+		<div class="inner_c">
+			<div class="all first-row">
+				<dl>
+					<dt>东方宇新</dt>
+					<dd>法人代表</dd>
+					<dd>加盟我们</dd>
+					<dd>历史事件</dd>
+					<dd>宇新工程</dd>
+					<dd>合作机构</dd>
+				</dl>
+			</div>
+			<div class="all second-row">
+				<dl>
+					<dt>新闻资讯</dt>
+					<dd>重大事件</dd>
+					<dd>战略方针</dd>
+					<dd>合作事件</dd>
+					<dd>发展方向</dd>
+					<dd>作战计划</dd>
+				</dl>
+			</div>
+			<div class="all third-row">
+				<dl>
+					<dt>中英合作</dt>
+					<dd>项目介绍</dd>
+					<dd>双新合作</dd>
+					<dd>国家认证</dd>
+					<dd>在线学习</dd>
+					<dd>联合培养</dd>
+				</dl>
+			</div>
+			<div class="all forth-row">
+				<dl>
+					<dt>中欧合作</dt>
+					<dd>合作关系</dd>
+					<dd>欧美建设</dd>
+					<dd>中和决策</dd>
+					<dd>个人定制</dd>
+				</dl>
+			</div>
+			<div class="all fifth-row">
+				<dl>
+					<dt>关于我们</dt>
+					<dd>国家政策</dd>
+					<dd>教育方针</dd>
+					<dd>宇新新闻</dd>
+				</dl>
+			</div>
+			<div class="all sixth-row">
+				<dl>
+					<dt>关注我们</dt>
+				</dl>
+			</div>
+		</div>
+		<div class="down">
+			<p>机构详细地址：First.Fumbally Square.Fumbally Lane. Dublin Do8 XYA5. lreland(爱尔兰，都柏林)</p>
+			<p>练习人电话：+35317082903  练习人姓名：Miriam Ryan</p>
+		</div>
+	</footer>
+</body>
+</html>

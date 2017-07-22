@@ -1,0 +1,131 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	color: #6f6f6f;
+}
+ul,ol{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+div.banner{
+	position: relative;
+}
+div.banner img,.feature img{
+	width: 100%;
+}
+
+
+.banner ol{
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	bottom:8%;
+}
+.banner ol li{
+	float: left;
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	background-color: #ebe2d9;
+	margin-left: 20px;
+}
+.banner ol li.cur{
+	background-color: #db494c;
+}
+.detail .inner_c{
+	width: 1200px;
+	margin:0 auto;
+	padding-top: 50px;
+	overflow: hidden;
+}
+.detail .inner_c .detail-left{
+	width: 770px;
+	letter-spacing:2px;
+	float: left;
+}
+.detail .inner_c .detail-left h3{
+	margin: 10px 0 40px 0;
+}
+.detail .inner_c .detail-left p{
+	font-size: 13px;
+	line-height: 20px;
+}
+.detail .inner_c .detail-left a{
+	display: inline-block;
+	width: 141px;
+	height: 36px;
+	background:url(../images/more.png) no-repeat;
+	margin-top: 40px;
+}
+.detail .inner_c .detail-right{
+	float: right;
+	width: 278px;
+	height: 355px;
+	background:url(../images/bannerxia.png) no-repeat;
+}
+.detail .menu{
+	width: 1200px;
+	margin:0 auto;
+	overflow: hidden;
+}
+.detail .menu li{
+	width: 300px;
+	float: left;
+	text-align: center;
+	margin-top: 80px;
+}
+.detail .menu li img{
+	margin-bottom: 20px;
+}
+section.feature{
+	margin-top: 40px;
+	position: relative;
+}
+section.feature .content{
+	width: 1200px;
+	position: absolute;
+	top: 80px;
+	margin-left: -600px;
+	left: 50%;
+}
+section.feature .content .f-head div{
+	line-height: 40px;
+}
+section.feature .content .f-head div h3{
+	display: inline;
+}
+section.feature .content .f-head div span a{
+	color: #6f6f6f;
+}
+section.feature .content .f-head div span:last-child{
+	float: right;
+}
+section.feature .content .f-head div span .ding{
+	color: #ff4545;
+}
+section.feature .content .f-con{
+	margin-top: 40px;
+}
+section.feature .content .f-con div{
+	float: left;
+	width: 283px;
+	margin-right: 22.6px;
+}
+section.feature .content .f-con div:last-child{
+	margin-right: 0;
+}
+section.feature .content .f-con h4{
+	color: black;
+	line-height: 30px;
+}
+section.feature .content .f-con div div{
+	width: 280px;
+	border-top: 2px solid #aaaaaa;
+	font-size: 13px;
+	line-height:20px;
+	padding-top: 10px;
+}

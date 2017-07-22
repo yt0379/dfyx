@@ -1,0 +1,108 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	color: #666666;
+}
+ul,ol{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+div.banner{
+	position: relative;
+}
+.banner img{
+	width: 100%;
+}
+.banner .btn span{
+	display: inline-block;
+	width: 38px;
+	height: 60px;
+	position: absolute;
+	top: 50%;
+	margin-top: -30px;
+	cursor: pointer;
+}
+.banner .btn span.left{
+	background:url(../images/left.png) no-repeat;
+	left: 18%;
+}
+.banner .btn span.right{
+	background:url(../images/right.png) no-repeat;
+	right: 18%;
+}
+.content{
+	width: 1200px;
+	margin:0 auto;
+	margin-top: 50px;
+}
+.content span.he{
+	background-color: #666666;
+	display: inline-block;
+	color: #fff;
+	width: 250px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	float: left;
+}
+.content .head{
+	width: 950px;
+	border-bottom:2px solid #aaaaaa;
+	float: left;
+	line-height: 38px;
+}
+.content .head span{
+	float: right;
+}
+a{
+	color: #666666;
+}
+.content .head span img{
+	margin:0 10px;
+}
+.content .con{
+	width: 100%;
+	overflow: hidden;
+}
+.content .con .b-left{
+	width: 250px;
+	float: left;
+}
+.content .con .b-left ul li{
+	line-height: 50px;
+	border-bottom: 1px solid black;
+	padding-left: 15px;
+	position: relative;
+}
+.content .con .b-left ul li span{
+	position: absolute;
+	top:50%;
+	margin-top: -9.5px;
+	right: 0;
+	display: inline-block;
+	width: 10px;
+	height: 19px;
+	background:url(../images/jiaobiao.png) no-repeat;
+}
+.current a{
+	color: red;
+}
+.content .con .b-left li.current a span{
+	background:url(../images/jiaobiaored.png) no-repeat;
+}
+.content .con .b-right{
+	width: 900px;
+	float: right;
+	margin-top: 30px;
+	letter-spacing: 2px;
+	font-size: 15px;
+	line-height: 20px;
+}
+.content .con .b-right img{
+	float: right;
+	margin-left: 20px;
+}

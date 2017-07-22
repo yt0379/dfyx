@@ -1,0 +1,41 @@
+div.banner,aside .inner_c{
+	height: 500px;
+	width: auto;
+}
+.btn{
+	width: 1200px;
+	height: 500px;
+	margin: 0 auto;
+	position: relative;
+}
+.banner ul{
+	position: absolute;
+}
+.banner ul,
+.banner ul li,
+.banner ul li a
+{
+	width: 100%;
+    height: 500px;
+}
+.banner ul li a
+{
+	display: block;
+}
+.banner .btn span{
+	display: inline-block;
+	width: 38px;
+	height: 60px;
+	position: absolute;
+	top: 50%;
+	margin-top: -30px;
+	cursor: pointer;
+}
+.banner .btn span.left {
+	background:url(../images/left.png) no-repeat;
+	left: 0;
+}
+.banner .btn span.right {
+	background:url(../images/right.png) no-repeat;
+	right: 0;
+}
