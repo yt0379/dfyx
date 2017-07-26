@@ -1,5 +1,6 @@
-header a,footer *{
-	font-family: 黑体;
+header a,
+footer *{
+	font-family: Microsoft YaHei,黑体;
 }
 div.banner,aside .inner_c{
 	height: 500px;
